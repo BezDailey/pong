@@ -1,3 +1,20 @@
-out
-node_modules
-docs
+# Node.js dependencies
+node_modules/
+
+# Documentation output
+docs/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Package lock file
+package-lock.json
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# JSDoc temporary files
+out/
