@@ -36,15 +36,19 @@ You need:
   ```bash
   cd pong
   ```
-3. Install `http-server` globally if you haven't already:
+3. Install dependencies:
+  ```bash
+  npm install .
+  ```
+4. Install `http-server` globally if you haven't already:
   ```bash
   npm install -g http-server
   ```
-4. Start the server:
+5. Start the server:
   ```bash
   npm start
   ```
-5. Open your web browser and navigate to the address shown in the terminal
+6. Open your web browser and navigate to the address shown in the terminal
 
 ## Game Controls
 - Move the mouse up and down to control the player's paddle on the left side of the screen.
