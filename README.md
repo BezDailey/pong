@@ -52,12 +52,15 @@ You need:
 
 ## Project Structure
 ```bash
-pong-game/
-├── index.html       # Main HTML file
-├── styles.css       # CSS for styling the game
-├── ball.js          # JavaScript class for the Ball object
-├── paddle.js        # JavaScript class for the Paddle object
-└── game.js          # Main game logic and initialization
+pong/
+├── ball.js                # JavaScript class for the Ball object
+├── game.js                # Main game logic and initialization
+├── index.html             # Main HTML file
+├── jsdoc.json             # JSDoc configuration file
+├── package.json           # Project configuration and dependencies
+├── paddle.js              # JavaScript class for the Paddle object
+├── README.md              # This README file
+└── styles.css             # CSS for styling the game
 ```
 
 ### File Descriptions
