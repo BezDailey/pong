@@ -83,4 +83,4 @@ The codebase uses JSDoc for documenting classes and functions. To generate the d
   ```bash
   jsdoc -c jsdoc.json
   ```
-3. The documentation will be generated in the `out/` directory by default.
+3. The documentation will be generated in the `docs/` directory by default.
