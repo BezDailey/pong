@@ -1,6 +1,6 @@
 # Pong Game
 
-A simple Pong game built using JavaScript and HTML5 canvas.
+A simple Pong game built using modern JavaScript (ES6) and HTML5 Canvas. This project serves as an introduction to game development in JavaScript and demonstrates fundamental concepts such as animation, collision detection, and user input handling. The codebase is documented using JSDoc for better maintainability and understanding.
 
 ## Table of Contents
 - [Features](#features)
@@ -8,6 +8,7 @@ A simple Pong game built using JavaScript and HTML5 canvas.
 - [Game Controls](#game-controls)
 - [Project Structure](#project-structure)
 - [Customization](#customization)
+- [JSDoc Documentation](#jsdoc-documentation)
 
 ## Features
 - Classic Pong game mechanics
@@ -15,20 +16,35 @@ A simple Pong game built using JavaScript and HTML5 canvas.
 - Real-time collision detection
 - Score tracking for both the player and AI
 - Smooth animations using the HTML5 Cancas API
+- Modern ES6 syntax with classes and modules
+- Code documentation using JSDoc
 
 ## Getting Started
-To get started with this project, simply clone the repository and open `index.html` in a web browser.
+To get started with this project, simply clone the repository and use a local development server like `http-server` to serve the game.
 
 ### Prerequisites
-You need a modern web browser to run the game, such as:
-- Google Chrome
-- Mozilla Firefox
-- Microsoft Edge
+You need:
+- A modern web browser that supports ES6 modules, such as:
+  - Google Chrome
+  - Mozilla Firefox
+  - Microsoft Edge
+- Node.js installed on your system for running `http-server`
 
 ### Installation
 1. Clone the repository.
-2. Navigate to the project folder.
-3. Open `index.html` in your preferred web browser.
+2. Navigate to the project folder:
+  ```bash
+  cd pong
+  ```
+3. Install `http-server` globally if you haven't already:
+  ```bash
+  npm install -g http-server
+  ```
+4. Start the server:
+  ```bash
+  npm start
+  ```
+5. Open your web browser and navigate to the address shown in the terminal
 
 ## Game Controls
 - Move the mouse up and down to control the player's paddle on the left side of the screen.
@@ -57,4 +73,14 @@ You can customize various aspects of the game, such as:
 - **Paddle size**: Change the `width` and `height` of the player and AI paddles in `game.js`.
 - **Canvas dimensions**: Updates the `width` and `height` attributes of the `<canvas>` element in `index.html`.
 
-
+## JSDoc Documentation
+The codebase uses JSDoc for documenting classes and functions. To generate the documentation:
+1. Install JSDoc globally:
+  ```bash
+  npm install -g jsdoc
+  ```
+2. Generate the documentation:
+  ```bash
+  jsdoc -c jsdoc.json
+  ```
+3. The documentation will be generated in the `out/` directory by default.
